@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import logo from "./logo.svg";
+import "./App.css";
+import classes from "./Body.module.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Card from "./components/Card";
+import { motion } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import Nav from "./components/Nav";
+import Searcharea from "./components/Searcharea";
+import Footer from "./components/Footer";
+import Companydetails from "./components/Companydetails";
+import Privacypolicy from "./components/Privacypolicy";
+import Termsservice from "./components/Termsservice";
+import MainApp from './MainApp';
+import Aboutus from './components/Aboutus';
+import Login2 from './components/Login2';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainApp />} />
+          <Route path="/Aboutus" element={<Aboutus />} />
+          <Route path="/Companydetails" element={<Companydetails />} />{" "}
+          <Route path="/Privacypolicy" element={<Privacypolicy />} />{" "}
+          <Route path="/Termsservice" element={<Termsservice />} />
+          <Route path="/Login" element={<Login2 />} />
+        </Routes>
+      </BrowserRouter>{" "}
     </div>
   );
 }
 
-export default App;
+export default App
+ 
+  
+ 

@@ -1,0 +1,119 @@
+.firstname {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+/* .citieslist { */
+/* border-radius: 20px;
+   background-color: white;
+    font-size: smaller;
+   
+   color: rgb(71, 53, 53);
+   border-color: rgb(110, 98, 98);
+   font-style: italic; */
+/* background-color: #0a0a23; */
+/* color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  font-size: smaller;
+} */
+.cityinput {
+  background-color: #00a698;
+  color: #fcfcfc;
+  border-radius: 15rem;
+  min-width: 7%;
+  padding: 2px;
+  font-size: 15px;
+}
+.cityinput:hover,
+.cityinput:active {
+  background-color: #06c5b5 !important;
+  color: #fcfcfc !important;
+  border-radius: 15rem !important;
+}
+.btn-check::after,
+.btn-check:checked {
+  background-color: #06c5b5 !important;
+}
+
+/* .citieslist:hover,
+.citieslist:hover {
+  background-color: #fff;
+  color: #0a0a23;
+  border-radius: 10px;
+} */
+.crdBrdr {
+  width: 290px;
+  /* max-height: 250px; */
+  /* border-radius: 10px; */
+  height: 400px;
+}
+.hotelImage {
+  height: 200px;
+  padding: 3px;
+  width: 18rem;
+  /* border-radius: px; */
+}
+.item {
+  min-height: 25rem;
+  min-width: 20rem;
+  padding: 20px;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+.inner-carousel {
+  display: flex;
+}
+.carousel {
+  overflow: hidden;
+}
+.badge {
+  position: absolute;
+  background-color: azure;
+  border-radius: 10px;
+  height: 19px;
+  left: 6px;
+  margin-top: -30px;
+}
+.hotelImagebadge {
+  /* padding-bottom: 10px; */
+  position: relative;
+  margin-top: 4px;
+}
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.199);
+  transform: scale(1.05);
+  border-radius: 8px;
+}
+.star {
+  color: peru;
+}
+.view {
+  cursor: pointer;
+
+  /* padding: 0.7rem 2.5rem; */
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 0.45rem;
+  /* padding: 5px; */
+  margin-top: -7px;
+  margin-right: -10px;
+  background-color: #00a698;
+
+  color: whitesmoke;
+
+  font-size: 15px;
+}
+
+.view:hover,
+.view:active {
+  background-color: #06c5b5;
+
+  color: whitesmoke;
+}

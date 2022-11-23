@@ -1,0 +1,36 @@
+.Nav {
+  background-color: #ffffff;
+  /* background-color: #c0c6e7; */
+  height: 70px;
+  display: flexbox;
+}
+.Link {
+  padding-left: 300px;
+}
+.navLogo {
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.mobi {
+  color: rgb(4, 145, 155);
+}
+.stay {
+  color: rgb(1, 77, 107);
+}
+.usericon {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(90, 88, 88);
+  /* padding-right: 150px; */
+display: flex;
+justify-content: right;
+}
+
+.login {
+    cursor: pointer;
+
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 5px;
+  color: black;
+}
